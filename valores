@@ -1,0 +1,21 @@
+Enter file contents here
+
+package javaapplication1;
+
+
+
+
+
+
+
+
+
+
+public class ValoresNoNegativosExeption extends Exception{
+    
+    public ValoresNoNegativosExeption(){
+        super("no acepto valores negativos");
+        
+    }
+    
+}
